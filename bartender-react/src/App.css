@@ -1,24 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    background-color: whitesmoke;
+    height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 20px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.interview-image {
+    max-height: 600px;
+    max-width: 600px;
+    border-radius: 20px;
 }
 
-.App-intro {
-  font-size: large;
+.navigation {
+    top: 0;
+    margin: 0;
+    background-color: rgb(72, 209, 204);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    margin: 0;
+    padding: 1%;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.recipes-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.recipe-instructions li {
+    list-style-type: none;
+}
+
+.cocktails {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.cocktails h3,
+p {
+    padding: 20px;
+}
+
+.interview-show {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.heading {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 4em;
+    text-shadow: 0 5px 5px rgba(72, 209, 204, 0.7);
+}
+
+.guide-heading {
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: 0 5px 5px rgba(72, 209, 204, 0.7);
+}
+
+.drink-heading {
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: 0 2px 2px rgba(72, 209, 204, 0.7);
+}
+
+.interview-list li {
+    list-style-type: none;
+     font-family: 'Fredericka the Great', cursive;
+    text-shadow: 0 2px 2px rgba(72, 209, 204, 0.7);
+}
+
+.interview-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+    margin-top: 100px;
+
+}
+.input {
+    width: 300px;
+    padding: 2%;
+}
+
+.search {
+    width: 80px;
+    padding: 1%;
+    background-color: rgb(72, 209, 204);
+    box-shadow: 0 2px 2px rgba(38, 38, 38, 0.7);
+    border: none;
+    margin: 3%;
+}
+
+.guide-div {
+    margin: 5%;
 }
