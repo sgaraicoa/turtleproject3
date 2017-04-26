@@ -35,6 +35,12 @@ const Cocktail = (props) => {
       </ul>
       </div>
       )
+  } if (props.cocktail === null){
+    return(
+      <div className="cocktails">
+          <p>Cocktail recipe unavailable</p>
+      </div>
+      )
   }
 }
 

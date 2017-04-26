@@ -11,4 +11,8 @@ controller.index = (req, res) => {
         });
     };
 
+// controller.create = (req, res) => {
+//   console.log("creating:" req.body);
+// };
+
 module.exports = controller;
