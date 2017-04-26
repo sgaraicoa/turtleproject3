@@ -8,8 +8,11 @@ class InterviewIndex extends Component {
     return interviewData.map((interview, index) => {
       return(
         <li key={index}>
+          <img src={interview.smallimage}
+               alt="small"
+               className="index-image" />
           <Link to={`/interviews/${interview.id}`} className="interview-links">
-            {interview.name}
+            {interview.title}
           </Link>
         </li>
         )
@@ -19,7 +22,9 @@ class InterviewIndex extends Component {
   render(){
     return(
       <div className="interview-div">
+      <h1 className="heading">Bartender Showcase</h1>
         <ul className="interview-list">
+
           {this.renderInterviews()}
         </ul>
       </div>

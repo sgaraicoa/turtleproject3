@@ -2,6 +2,8 @@ export default [
 {
   id: 1,
   name: 'Showcase: Jake Bailey',
+  title: 'Jake Bailey',
+  smallimage: 'http://i.imgur.com/VXioAs2.jpg',
   image: 'http://i.imgur.com/ZvN3Q7l.jpg',
   introduction1: 'I can listen to Jake Bailey talk about beer for hours on end; it’s easy to lose time listening to a southern twang wax poetic about the latest iteration of a Dupont saison. I’ve frequently witnessed him behind the bar of Taproom No.307 with a glass of beer held high into the light and customers rapt with attention as he explains the texture and complexity of a fine creation. He may very well be divining the universe with that glass, for all the intensity his gaze supplies.',
   introduction2: 'As many a transplant before him, Jake came from Montgomery, Alabama with a tune in his heart and a guitar on his back. He started off at Panera Bread in Astoria, then as a server at a few places until he managed his sneak his way behind a Midtown bar. Today you’ll find him at Taproom No.307, groomed to look like the quintessential craft beer bartender - long hair tied up in a bun, thick beard, the occasional frames, and a somewhat serious, straight-forward, yet pleasant persona. I’ve stolen a couple hours out of his day to hear more about beer, homebrewing, and stock trading, so without further ado let’s hear from the bartender himself.',
@@ -53,6 +55,8 @@ export default [
 {
   id: 2,
   name: 'Showcase: Becca Smith',
+  title: 'Becca Smith',
+  smallimage: 'http://i.imgur.com/FcOlrKQ.jpg',
   image: '',
   introduction1: '',
   introduction2: '',
@@ -104,6 +108,8 @@ export default [
 {
  id: 3,
   name: 'Showcase: Daisy Salas',
+  title: 'Daisy Salas',
+  smallimage: 'http://i.imgur.com/eEwQgVx.jpg',
    image: '',
   introduction1: '',
   introduction2: '',

@@ -3,26 +3,58 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    background-color: rgb(72, 209, 204);
 }
+
 
 .App {
     text-align: center;
-    background-color: whitesmoke;
-    height: 100%;
+    ;
+  }
+
+.landing-image {
+    background-image: url('http://i.imgur.com/ZP1d1vJ.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
-img {
+.landing-info {
+    padding: 4%;
+    background-color: rgba(72, 209, 204, 0.3);
+    width: 800px;
+    margin: 10px auto;
+}
+
+.landing-info p {
+    border-radius: 20px;
+}
+
+.cocktail-image, .index-image {
     max-height: 200px;
     max-width: 200px;
     border-radius: 20px;
 }
 
+.cocktail-image {
+    background-color: whitesmoke;
+}
 .interview-image {
     max-height: 600px;
     max-width: 600px;
     border-radius: 20px;
 }
 
+.guide-image {
+    max-height: 300px;
+    max-width: 550px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(72, 209, 204, 0.7);
+
+}
 .navigation {
     top: 0;
     margin: 0;
@@ -41,6 +73,12 @@ img {
     list-style-type: none;
 }
 
+.logo {
+    max-height: 400px;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
 .link {
     text-decoration: none;
     color: whitesmoke;
@@ -52,6 +90,23 @@ img {
     justify-content: center;
     align-items: center;
     padding: 4%;
+    background-color: whitesmoke;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.recipe-instructions {
+    background-color: whitesmoke;
+}
+
+.recipe-instructions li{
+    background-color: whitesmoke;
+    list-style-type: none;
+}
+
+.form-container form {
+    background-color: whitesmoke;
 }
 
 .results-container {
@@ -60,16 +115,20 @@ img {
     justify-content: center;
     align-items: center;
     padding: 4%;
+    background-color: whitesmoke;
 }
 
-.recipe-instructions li {
-    list-style-type: none;
-}
+/*.results-container p, img {
+    background-color: rgb(72, 209, 204);
+}*/
+
+
 
 .cocktails {
     display: flex;
     flex-direction: row;
     margin: 50px;
+    background-color: whitesmoke;
 }
 
 .cocktails h3,
@@ -83,33 +142,61 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: 30px auto;
+    top: 100px;
+    padding: 2%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.interview-show h1, p{
+    background-color: whitesmoke;
+}
+
+.logo {
+    max-height: 400px;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+.interview-div p {
+    background-color: rgba(72, 209, 204, 0.7);
 }
 
 .heading {
     font-family: 'Fredericka the Great', cursive;
     font-size: 4em;
-    text-shadow: 0 5px 5px rgba(72, 209, 204, 0.7);
+    text-shadow: 0 5px 5px rgba(245,245,245, 0.7);
 }
 
 .guide-heading {
     font-family: 'Fredericka the Great', cursive;
     text-shadow: 0 5px 5px rgba(72, 209, 204, 0.7);
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5%;
 }
 
 .drink-heading {
     font-family: 'Fredericka the Great', cursive;
     text-shadow: 0 2px 2px rgba(72, 209, 204, 0.7);
+    background-color: whitesmoke;
 }
 
 .interview-list li {
     list-style-type: none;
-     font-family: 'Fredericka the Great', cursive;
+    display: flex;
+    flex-direction: column;
     text-shadow: 0 2px 2px rgba(72, 209, 204, 0.7);
 }
 
+.interview-list a {
+    font-family: 'Fredericka the Great', cursive;
+
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
 .interview-list {
     display: flex;
     flex-direction: row;
@@ -118,9 +205,15 @@ p {
     margin-top: 100px;
 
 }
+
+.interview-link-holder {
+    display: flex;
+    flex-direction: column;
+}
 .input {
     width: 300px;
     padding: 2%;
+    background-color: rgb(245,245,245);
 }
 
 .search {
@@ -133,5 +226,17 @@ p {
 }
 
 .guide-div {
-    margin: 5%;
+    width: 800px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+
 }
+
+.guide-div p {
+    background-color: whitesmoke;
+}
+
+
+
+

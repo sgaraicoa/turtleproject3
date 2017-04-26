@@ -53,6 +53,7 @@ class Recipes extends Component {
     console.log('state', this.state)
     return(
       <div className="recipes-div">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit metus at tincidunt varius. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sodales et eros sed faucibus. Morbi sit amet porta ligula, id elementum ante. Mauris eget mauris placerat, facilisis ex eu, viverra sapien. Nunc cursus ex quis scelerisque rhoncus.</p>
         <div className="form-container">
             <form onSubmit={e => this.handleSubmit()}>
               <input className="input"
